@@ -230,3 +230,7 @@ footer .text-container {
         margin: 2% 0;
     }
 }
+
+@media (max-width: 500px) {
+    
+}
