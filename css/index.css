@@ -235,6 +235,57 @@ footer .text-container {
     }
 }
 
+@media (max-width: 750px) {
+    .links {
+        margin: 0 0.5rem;
+        width: 45%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 550px) {
+    .links {
+        width: 50%;
+    }
+}
+
 @media (max-width: 500px) {
-    
+    .links {
+        width: 55%;
+    }
+    .uses-description {
+        margin: 0;
+    }
+    .uses-description img {
+        height: 25vh;
+        width: 25vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo-img {
+        margin: 0.6rem 0 0.2rem 0;
+    }
+    header #bar{
+        align-items: center;
+        flex-flow: column;
+    }
+    header nav{
+        padding: 0 0 3% 0;
+    }
+    .links {
+        width: 75%;
+    }
+    .hero-img {
+        height: 55vh;
+    }
+    header .heading-container {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .uses-description img {
+        height: 25vh;
+        width: 25vh;
+    }
 }
