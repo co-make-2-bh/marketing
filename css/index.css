@@ -244,6 +244,13 @@ footer .text-container {
     }
 }
 
+@media (max-width: 600px) {
+    .uses-description img {
+        height: 32.5vh;
+        width: 32.5vh;
+    }
+}
+
 @media (max-width: 550px) {
     .links {
         width: 50%;
