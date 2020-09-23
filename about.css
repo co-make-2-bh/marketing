@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 .first{
@@ -17,8 +17,7 @@ nav{
     display:flex;
     justify-content: space-between;
     color:white;
-}
-a{
+    font-family:"Poppins", sans-serif;
     text-decoration: none;
 }
 .top{
@@ -27,7 +26,7 @@ a{
 }
 .yes{
     font-size:2rem;
-    margin-top: 11%;
+    margin-top: %;
     margin-left:5%;
     color:white;
     font-family:"Poppins", sans-serif;
@@ -36,39 +35,49 @@ header{
     background-color: #21333e;
     color: White;
 }
-p{
-    font-family:"Montserrat", sans-serif;
-}
 h3{
     font-size: 2rem;
     margin-bottom: 2%;
     margin-top: 1%;
     font-family:"Poppins", sans-serif;
+    background-color: #228283;
+    color:white;
+    border-radius: 25%;
 }
 .pic-container1{
     background-image: url("/assets/about\ img\ 3.jpg");
     background-size:cover;
     height: 45vh;
-    background-position:bottom;
+    background-position:center;
     
+}
+.pic-container{
+    background-color:#70ABAF;
 }
 .pics2{
     margin:2%;
     width: 75%;
     padding-left: 15%;
-}
-
-.text{
-    width:55%;
-    text-align: center;
-    margin-left: 5%;
-   
+    height: 37vh;
 }
 p{
-     background-color: #228283;
      border-radius: 15%;
+     margin: 2%;
+     font-family:"Montserrat", sans-serif;
+     font-size: 0.9rem;
+     width:100%;
      
 }
+.text{
+    width:40%;
+    text-align: center;
+    margin-left: 5%;
+    background-color:#70ABAF;
+    border-style:groove;
+    border-radius: 15%;
+    margin-bottom: 2%;
+}
+
 .title{
     margin-left: 35%;
 
@@ -77,21 +86,43 @@ p{
     margin-left: 35%;
 }
 .textb{
-    width:55%;
+    width:40%;
     text-align: center;
-    margin-left: 45%;
+    margin-left: 43%;
     border-radius: 15%;
+    background-color:#70ABAF;
+    border-style:groove;
+    margin-bottom: 2%;
 }
 .titlec{
-    margin-left: 2%;
+    margin-left: 45%;
 }
 .textc{
-    width:55%;
+    width:40%;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 3%;
     border-radius: 15%; 
+    background-color:#70ABAF;
+    border-style:groove;
+    margin-bottom: 2%;
 }
 footer{
     background-color: #21333e;
-    color:white
+    color:white;
+    padding: 5%;
+}
+.pic3{
+    width: 20%;
+    margin-left: 40%;
+}
+.footer-nav{
+    margin-left: 27%;
+}
+.line{
+    border: 1px solid white;
+    
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
 }
