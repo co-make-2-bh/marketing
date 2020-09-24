@@ -232,7 +232,16 @@ footer .text-container {
 }
 
 /* Breakpoints */
+@media (max-width: 1000px) {
+    .links {
+        width: 45%;
+    }
+}
+
 @media (max-width: 800px) {
+    .links {
+        width: 52%;
+    }
     .uses-container {
         display: flex;
         flex-direction: column;
@@ -269,10 +278,7 @@ footer .text-container {
 
 @media (max-width: 750px) {
     .links {
-        margin: 0 0.5rem;
-        width: 45%;
-        display: flex;
-        justify-content: space-around;
+        width: 60%;
     }
 }
 
@@ -283,23 +289,7 @@ footer .text-container {
     }
 }
 
-@media (max-width: 550px) {
-    .links {
-        width: 50%;
-    }
-}
-
 @media (max-width: 500px) {
-    .links {
-        width: 55%;
-    }
-    .uses-description img {
-        height: 25vh;
-        width: 25vh;
-    }
-}
-
-@media (max-width: 450px) {
     .logo-img {
         margin: 0.6rem 0 0.2rem 0;
     }
@@ -312,6 +302,19 @@ footer .text-container {
     }
     .links {
         width: 75%;
+    }
+    .uses-description {
+        margin: 0;
+    }
+    .uses-description img {
+        height: 25vh;
+        width: 25vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .links {
+        width: 90%;
     }
     header .heading-container {
         width: 85%;
