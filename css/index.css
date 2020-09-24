@@ -226,26 +226,12 @@ footer .text-container {
 /* Breakpoints */
 @media (max-width: 1000px) {
     .links {
-        margin: 0 0.5rem;
         width: 45%;
-        display: flex;
-        justify-content: space-around;
-    }
-    .uses-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .uses-description {
-        width: 45%;
-        margin: 2% 0;
     }
 }
 @media (max-width: 800px) {
     .links {
-        margin: 0 0.5rem;
         width: 52%;
-        display: flex;
-        justify-content: space-around;
     }
     .uses-container {
         flex-direction: column;
@@ -259,10 +245,7 @@ footer .text-container {
 
 @media (max-width: 750px) {
     .links {
-        margin: 0 0.5rem;
         width: 60%;
-        display: flex;
-        justify-content: space-around;
     }
 }
 
