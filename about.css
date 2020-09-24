@@ -105,6 +105,11 @@ h4{
 ol{
     color:white;
 }
+.oneC{
+    display:flex;
+    padding: 2%;
+    align-items: center;
+}
 .titlec{
     margin-left: 5%;
     width: 50%;
@@ -136,4 +141,26 @@ footer{
 .footer-text{
     display: flex;
     justify-content: space-between;
+}
+
+@media ( max-width:500px){
+    nav{
+        width:fit-content;
+    }
+    .oneC{
+        display:flex;
+        padding: 2%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .squad{
+        width:60%;
+        padding-top:7%;
+    }
+    .Aye{
+        margin-left:35%;
+    }
+    .footer-nav{
+        margin: 1%;
+    }
 }
