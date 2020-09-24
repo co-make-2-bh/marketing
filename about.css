@@ -11,6 +11,11 @@
 .first{
     width: 20%;
 }
+a{
+    text-decoration: none;
+    color:white;
+
+}
 nav{
     width:40%;
     margin:2%;
@@ -26,7 +31,6 @@ nav{
 }
 .yes{
     font-size:2rem;
-    margin-top: %;
     margin-left:5%;
     color:white;
     font-family:"Poppins", sans-serif;
@@ -34,15 +38,6 @@ nav{
 header{
     background-color: #21333e;
     color: White;
-}
-h3{
-    font-size: 2rem;
-    margin-bottom: 2%;
-    margin-top: 1%;
-    font-family:"Poppins", sans-serif;
-    background-color: #228283;
-    color:white;
-    border-radius: 25%;
 }
 .pic-container1{
     background-image: url("/assets/about\ img\ 3.jpg");
@@ -68,34 +63,51 @@ p{
      width:100%;
      
 }
-.text{
-    width:40%;
+.one{
+    display:flex;
+    padding: 2%;
+    align-items: center;
+}
+h4{
+    width:100%;
     text-align: center;
-    margin-left: 5%;
+    /* margin-left: ; */
+    border-radius: 15%;
     background-color:#70ABAF;
     border-style:groove;
-    border-radius: 15%;
     margin-bottom: 2%;
-}
-
-.title{
-    margin-left: 35%;
-
-}
-.titleb{
-    margin-left: 35%;
+    color:white;
 }
 .textb{
-    width:40%;
+    width:100%;
     text-align: center;
-    margin-left: 43%;
     border-radius: 15%;
     background-color:#70ABAF;
     border-style:groove;
     margin-bottom: 2%;
 }
+.Aye{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+.pic4{
+    width:50%;
+    display:flex;
+    justify-content: center;
+}
+.squad{
+    width:50%;
+    border-radius: 15%;
+}
+
+ol{
+    color:white;
+}
 .titlec{
-    margin-left: 45%;
+    margin-left: 5%;
+    width: 50%;
 }
 .textc{
     width:40%;
@@ -120,7 +132,6 @@ footer{
 }
 .line{
     border: 1px solid white;
-    
 }
 .footer-text{
     display: flex;
