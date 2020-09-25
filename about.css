@@ -145,7 +145,13 @@ footer{
 
 @media ( max-width:500px){
     nav{
-        width:fit-content;
+        width:100%;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+        margin: 1%;
+    
     }
     .oneC{
         display:flex;
